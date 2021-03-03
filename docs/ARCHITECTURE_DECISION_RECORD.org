@@ -1,1 +1,17 @@
 #+title: Architecture Decision Record for =lagu-sion-service=
+
+* Introduction
+
+** In Scope
+
+** Out of Scope
+
+* Accepted Decisions
+
+* System Design
+
+* Domain Data Structures
+
+* APIs
+
+* Storage
