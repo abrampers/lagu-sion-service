@@ -1,1 +1,1 @@
-#+title: Architecture Design Record for lagu-sion-service
+#+title: Architecture Design Record for =lagu-sion-service=
