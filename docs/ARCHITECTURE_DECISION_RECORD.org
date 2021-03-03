@@ -9,9 +9,29 @@
 * Accepted Decisions
 
 * System Design
+- How to present data (will be read heavy)
+  - search
+  - get lyrics
+- How to input data
+  - CSV?
+- How to modify data
 
 * Domain Data Structures
 
 * APIs
 
+** API Architecture
+- REST
+- GRPC
+- GraphQL
+
+** API definitions
+
 * Storage
+
+** DB Stack
+- MongoDB
+- Postgresql
+- Redis
+
+** DB Schema
