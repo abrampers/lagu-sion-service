@@ -1,10 +1,12 @@
 #+title: Architecture Decision Record for =lagu-sion-service=
 
-* Introduction
+* Project Description
 
 ** In Scope
 
 ** Out of Scope
+
+** Design / Wireframes
 
 * Accepted Decisions
 
