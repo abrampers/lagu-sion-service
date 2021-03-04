@@ -35,3 +35,21 @@
 - Redis
 
 ** DB Schema
+
+* Monitoring
+- Grafana + Loki?
+- NewRelic / Appdynamics
+
+* Libraries
+
+** Router
+[[https://www.nicolasmerouze.com/guide-routers-golang][Golang router comparison]]
+
+- [[http://www.gorillatoolkit.org/pkg/mux][gorilla/mux]]
+- [[https://github.com/julienschmidt/httprouter][httprouter]]
+- [[https://github.com/bmizerany/pat][pat]]
+- [[https://github.com/gin-gonic/gin][gin]]
+
+** Testing
+
+** Database Client
