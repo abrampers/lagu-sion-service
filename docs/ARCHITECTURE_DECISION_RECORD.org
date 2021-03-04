@@ -40,6 +40,9 @@
 - Grafana + Loki?
 - NewRelic / Appdynamics
 
+* Project Structure
+[[https://github.com/golang-standards/project-layout][golang-standards/project-layout]]
+
 * Libraries
 
 ** Router
