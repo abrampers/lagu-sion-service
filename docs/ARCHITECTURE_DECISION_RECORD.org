@@ -58,3 +58,30 @@
 ** Testing
 
 ** Database Client
+
+* CI/CD
+
+Assumptions:
+- Repo is public
+
+| platform       | price | limits       | concurrent jobs | manual deployment? |
+|----------------+-------+--------------+-----------------+--------------------|
+| Gitlab CI      | free  |              |                 | yes                |
+| GitHub Actions | free  |              |                 | no                 |
+| Travis CI      | free  |              |                 |                    |
+| CircleCI       | free  | 100k credits |               4 | yes                |
+
+** Gitlab CI
+
+** GitHub Actions
+
+** Travis CI
+
+** CircleCI
+
+- Telegram notification [[https://circleci.com/developer/orbs/orb/woltsu/telegram][woltsu/telegram]]
+- [[https://circleci.com/docs/2.0/deployment-integrations/][Deployoment configuration]]
+- [[https://circleci.com/blog/optimizing-open-source-projects-on-circleci/][Storing build artifacts]]
+
+*** TODO Find artifacts storage limits
+
