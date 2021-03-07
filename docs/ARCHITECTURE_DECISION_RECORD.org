@@ -63,13 +63,15 @@
 
 Assumptions:
 - Repo is public
+- Empty means unlimited
 
-| platform       | price | limits       | concurrent jobs | manual deployment? |
-|----------------+-------+--------------+-----------------+--------------------|
-| Gitlab CI      | free  |              |                 | yes                |
-| GitHub Actions | free  |              |                 | no                 |
-| Travis CI      | free  |              |                 |                    |
-| CircleCI       | free  | 100k credits |               4 | yes                |
+| platform       | price | limits (min/month) | concurrent jobs | manual deployment? | Supported platform        |
+|----------------+-------+--------------------+-----------------+--------------------+---------------------------|
+| Gitlab CI      | free  |                    |                 | yes                | gitlab                    |
+| GitHub Actions | free  |                    |                 | no                 | github                    |
+| Travis CI      | free  |                    |             200 |                    | github, bitbucket         |
+| CircleCI       | free  |              40000 |               4 | yes                | github, bitbucket         |
+| Jenkins        | free  |                    |                 | yes                | github, gitlab, bitbucket |
 
 ** Gitlab CI
 
@@ -77,11 +79,29 @@ Assumptions:
 
 ** Travis CI
 
+Private / Open Source: unlimited (need to recheck)
+
+Currently is migrating from travis-ci.org to travis-ci.com. This might be problematic when implementing
+
+As per [[https://docs.travis-ci.com/user/deployment/][Deployment and uploads]]: No manual deployment supported
+
 ** CircleCI
+
+OSS: 100k credits / week
+[[https://circleci.com/docs/2.0/oss/][Open source limits]]
+
+Docker small (1 vCPU, 2 GB): 5 credit/min
+Docker Medium (2 vCPU, 4 GB): 10 credit/min
+
+Linux VM Medium (2 vCPU, 7.5 GB): 10 credit/min
+
+Try whether docker small is cheaper to use than linux vm medium
 
 - Telegram notification [[https://circleci.com/developer/orbs/orb/woltsu/telegram][woltsu/telegram]]
 - [[https://circleci.com/docs/2.0/deployment-integrations/][Deployoment configuration]]
 - [[https://circleci.com/blog/optimizing-open-source-projects-on-circleci/][Storing build artifacts]]
+
+
 
 *** TODO Find artifacts storage limits
 
