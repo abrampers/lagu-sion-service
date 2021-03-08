@@ -101,6 +101,8 @@ Try whether docker small is cheaper to use than linux vm medium
 - [[https://circleci.com/docs/2.0/deployment-integrations/][Deployoment configuration]]
 - [[https://circleci.com/blog/optimizing-open-source-projects-on-circleci/][Storing build artifacts]]
 
+[[https://circleci.com/docs/2.0/circleci-images/#pre-installed-tools][Pre built]] Docker image for [[https://circleci.com/developer/images/image/cimg/go][golang]] is provided.
+
 
 
 *** TODO Find artifacts storage limits
