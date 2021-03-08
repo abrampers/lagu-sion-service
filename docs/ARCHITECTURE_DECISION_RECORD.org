@@ -59,7 +59,7 @@
 
 ** Database Client
 
-* CI/CD
+* CI/CD Platform
 
 Assumptions:
 - Repo is public
@@ -101,9 +101,21 @@ Try whether docker small is cheaper to use than linux vm medium
 - [[https://circleci.com/docs/2.0/deployment-integrations/][Deployoment configuration]]
 - [[https://circleci.com/blog/optimizing-open-source-projects-on-circleci/][Storing build artifacts]]
 
-[[https://circleci.com/docs/2.0/circleci-images/#pre-installed-tools][Pre built]] Docker image for [[https://circleci.com/developer/images/image/cimg/go][golang]] is provided.
-
-
+[[https://circleci.com/docs/2.0/circleci-images/#pre-installed-tools][Pre built]] Docker image for [[https://circleci.com/developer/images/image/cimg/go][golang]] is provided. [[https://circleci.com/docs/2.0/custom-images/][Custom built]] Docker images are also possible.
 
 *** TODO Find artifacts storage limits
+* Infrastructure
+** TODO Infrastructure as a Code
+- Chef
+- Ansible
+- Terraform
+** TODO Cloud service
+- AWS
+- Azure
+*** TODO What type of infrastructure
+- Function as a service
+- Virtual Private Server
+* Misc Notes
+- use some kind of docker compose to run service locally -> /deployments/docker-compose-local
+- put server bootstrapping in this repo as well -> /deployments/bootstrap-server
 
