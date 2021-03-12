@@ -2,11 +2,25 @@
 
 * Project Description
 
+** Background
+Lagu Sion is a list of songs (song book) used by the Seventh Day Adventist Church on our church services. Currently, this songs is provided locally through an easy worship proprietary app. By using this proprietary app, church song book are limited to what the app provides. This conditions requires churches to somehow acquire the use of the proprietary software, which is not possible for churches without budget or access to it.
+
+The second problem is that there is no legitimate datasources on the web for users to search and look up to the Lagu Sion lyrics. There are some Lagu Sion client applications such as: [[https://lagusiononline.blogspot.com/p/lagu-sion.html][blogspot site]], [[https://play.google.com/store/apps/details?id=com.lagusionlengkap.lagusionlyrics&hl=en_US&gl=US][android app]], and [[https://apps.apple.com/us/app/lagu-sion-sda/id1057777133][ios app]] with their own respective datasources. This condition is limiting creativity. Instead of doing creative work to improve functionality on the clients, we will have to spend a lot of resources to create, store, and serve the Lagu Sion songbook data.
+** The Goal
+The goal of this project is to create a service that serves songbooks (not limited to Lagu Sion) data.
 ** In Scope
-
+This project's scope is:
+- Design the architecture of the service
+- Implement the actual service
+- Test all the functionality (using TDD)
+- Document APIs of the service
+- Deploy the service so it is usable to clients
 ** Out of Scope
-
-** Design / Wireframes
+The development of the UI (Mobile or Web) client is out of scope of this document.
+** Requirements
+*** Design / Wireframes
+#+CAPTION: Login Page
+[[file:images/wireframe_1_login_page.jpg]]
 
 * Accepted Decisions
 
