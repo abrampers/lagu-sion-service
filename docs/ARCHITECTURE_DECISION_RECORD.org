@@ -20,8 +20,46 @@ The development of the UI (Mobile or Web) client is out of scope of this documen
 ** Requirements
 *** Design / Wireframes
 #+CAPTION: Login Page
+#+ATTR_HTML: :width 400px
 [[file:images/wireframe_1_login_page.jpg]]
 
+First, the user will be prompted to login. Login is optional and only used to save bookmarks. User will have option to skip login and login later.
+
+#+CAPTION: Home Page
+#+ATTR_HTML: :width 400px
+[[file:images/wireframe_2_home_page.jpg]]
+
+Inside the main page, users will be able to:
+- Search songs. This will search all songs by number, title, or even lyrics
+- Select songbook. This will be dynamically driven from backend.
+- See and tap songs that are available. When user taps a song, user will move to Song Page
+
+#+CAPTION: Bookmarks Page
+#+ATTR_HTML: :width 400px
+[[file:images/wireframe_3_bookmarks_page.jpg]]
+
+In this page, user will be able to:
+- Search songs. This will be identical with the search feature in home page, but filtered only to songs that users bookmarked.
+- Tap song. This will be identical when user tap on song on home page.
+
+#+CAPTION: Song Page
+#+ATTR_HTMP: :width 400px
+[[file:images/wireframe_4_song_page.jpg]]
+
+In this page, user will be able to:
+- Read song
+- Bookmark song
+
+#+CAPTION: Settings Page
+#+ATTR_HTMP: :width 400px
+[[file:images/wireframe_5_settings_page.jpg]]
+
+In this page, user will be able to:
+- Change fonts
+- Login (if not logged in yet)
+- See login info
+- Sign out (if signed in)
+- Offline mode
 * Accepted Decisions
 
 * System Design
